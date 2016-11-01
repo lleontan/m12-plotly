@@ -8,7 +8,7 @@ Stuff is working n stuff.
 #install.packages(pkgs="plotly")
 library(plotly)
 
-#Testing Plotly Example Code.
+# Testing Plotly Example Code.
 
 df <- read.csv("https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv")
 df$hover <- with(df, paste(state, '<br>', "Beef", beef, "Dairy", dairy, "<br>",
